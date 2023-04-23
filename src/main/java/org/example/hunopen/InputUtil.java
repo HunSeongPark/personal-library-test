@@ -1,10 +1,13 @@
 package org.example.hunopen;
 
+import lombok.ToString;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+@ToString
 public class InputUtil {
 
     private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
